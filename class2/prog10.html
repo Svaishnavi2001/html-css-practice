@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <titile> Div and Span  </titile>
+    <style>
+    .left-menu,.right-menu {
+            width: 19%;
+            float: left;
+            margin-top:26px;
+            margin-left:10px;
+     }
+    .content-section{
+            width:60%;
+            float: left;
+            font-weight:bold;
+            border:2px solid red;
+            padding:10px;
+            margin:10px;
+     }
+    .right-menu > a{
+              dispaly:block;
+              font-size:20px;
+              font-family:cambria;
+              font-weight: bold;
+    }
+    .left-menu > a{
+            dispaly:block;
+            font-size: 20px;
+            font-family:cambria;
+            font-weight:bold;
+    }
+    .mybold{
+            font-weight:bold;
+            font-family:cambria;
+            font-size:20px;
+     }
+    </style>
+</head>
+<body>
+    <div class="left-menu">
+        <a href="#">Java Training</a>
+        <a href="#">Python Training</a>
+        <a href="#">Spring Training</a>
+        <a href="#">Spring Boot Training</a>
+        <a href="#">Angular Training</a>
+    </div>
+    <div class="content-section"> 
+        <h1> JAVA Training</h1>
+        <p id="First-para:" class="mybold"  title="This is my first para"> 
+        <span> First para:</span> Some 10 lines of text</p>
+        <p id="Second-para:" class="mybold" title="This is my second para">
+        <span> Second para:</span> Some 10 lines of text </p>
+        <p id="Third-para:" class="mybold" title="This is my third para">  
+        <span> Third para:</span> Some 10 lines of text</p>
+        <p id="fourth-para:" class="mybold" title="This is my fourth para">
+         This is my fourth para </p>
+        <p id="Fifth-para:" class="mybold" title="This is my fifth para">
+        This is my fifth para </p>
+
+    </div>
+    <div class="right-menu">       
+        <a href="#">Java Training</a>
+        <a href="#">Python Training</a>
+        <a href="#">Spring Training</a>
+        <a href="#">Spring Boot Training</a>
+        <a href="#">Angular Training</a>
+    </div>
+
+</body>
+</html>
